@@ -79,15 +79,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                   Ing. Software
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel.com/docs">La fome</a>
+                    <a href="https://laracasts.com">Wea</a>
+                    <a href="https://laravel-news.com">Conchesumadre</a>
+                    <a href="https://forge.laravel.com">weon </a>
+                    <a href="https://github.com/laravel/laravel">Qliao</a>
                 </div>
             </div>
         </div>
