@@ -7,3 +7,39 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.loader{
+   
+    position: absolute;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+
+    img{
+        width: 130px;
+        margin: 0 auto;
+    }
+    span{
+        font-weight: bold;
+        color: #565656;
+        font-size: 18px;
+    }
+}
+
+#tbl-arg{
+    display: none;
+}
+
+.well{
+    background-color: #fff;
+    padding: 19px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+    border: 0;
+}
+
+.row-bottom{
+    margin-top: 10px;
+}
