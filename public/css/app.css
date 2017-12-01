@@ -8350,6 +8350,20 @@ button.close {
   }
 }
 
+body {
+  background-color: white;
+}
+
+h1.title {
+  padding: 20px;
+  color: white;
+  background-color: #44576b;
+  font-weight: bold;
+  margin: 0;
+  border-bottom: 2px solid #36424e;
+  margin-bottom: 15px;
+}
+
 .loader {
   position: absolute;
   width: 100%;
@@ -8372,6 +8386,15 @@ button.close {
   font-size: 18px;
 }
 
+th {
+  vertical-align: middle;
+}
+
+.row h3 {
+  font-weight: bold;
+  color: #4f6980;
+}
+
 #tbl-arg {
   display: none;
 }
@@ -8384,9 +8407,31 @@ button.close {
           box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 2px;
   border: 0;
+  padding-top: 1px;
+}
+
+#app {
+  text-align: center;
+}
+
+#app .buttons-i {
+  overflow: hidden;
+  display: inline-block;
+}
+
+#app .buttons-i i {
+  cursor: pointer;
 }
 
 .row-bottom {
   margin-top: 10px;
+}
+
+.modal {
+  left: -1000px;
+}
+
+.modal .modal-content {
+  width: 1500px;
 }
 

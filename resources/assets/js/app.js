@@ -9,12 +9,34 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-Vue.component('data-ema', require('./components/Tables.vue'));
+Vue.component('data-temperatura', require('./components/Temperatura.vue'));
+Vue.component('data-humedad', require('./components/Humedad.vue'));
+Vue.component('data-presion', require('./components/Presion.vue'));
 
 const app = new Vue({
     el: '#app'
 });
 
+$("#calibrar").click(function (e) {
+    e.preventDefault();
+
+    swal({
+        title: "Calibrando...",
+        timer: 4000,
+        showCancelButton: false,
+        showConfirmButton: false
+    });
+
+    setTimeout(function () {
+        swal({
+            title: "Se calibraron corrrectamente los sensores",
+            timer: 4000,
+            showCancelButton: false,
+            showConfirmButton:  false
+        });
+    }, 4000);
+
+});
 
 
 //var data = [
